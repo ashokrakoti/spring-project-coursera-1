@@ -27,6 +27,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 import org.magnum.dataup.model.Video;
+import org.springframework.stereotype.Component;
 
 /**
  * This class provides a simple implementation to store video binary
@@ -36,6 +37,7 @@ import org.magnum.dataup.model.Video;
  * @author jules
  *
  */
+@Component
 public class VideoFileManager {
 
 	/**
